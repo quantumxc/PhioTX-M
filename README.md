@@ -17,3 +17,11 @@ docker run --rm --init \
     -e ROOT_URL=http://127.0.0.1:8080 \
     ghcr.io/quantumxc/phiotx-m:latest
 ```
+
+## Parameters
+
+|   Parameter   |  Description                                  |
+| ------------- | --------------------------------------------- |
+| -p 8080       | Publish HTTP port to the host.                |
+| -e PORT=      | Set HTTP listening port.                      |
+| -e ROOT_URL=  | Set base URL used to access the application.  |
